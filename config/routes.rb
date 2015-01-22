@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   resources :people
 
-  root "organizations#index"
+  root "home#index"
 end
